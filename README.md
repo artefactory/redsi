@@ -51,7 +51,7 @@ Run the default pre-built NQ320K pipeline:
 redsi-build --config-name nq320k
 ```
 
-This loads [`vingtetun/nq320k`](https://huggingface.co/datasets/vingtetun/nq320k),
+This loads [`artefactory/nq320k`](https://huggingface.co/datasets/artefactory/nq320k),
 assigns naive identifiers, tokenizes the dataset, adds a validation index split,
 and writes the exported data to:
 
@@ -177,7 +177,7 @@ keeps dataset construction out of the identifier research loop.
 The default NQ320K config loads:
 
 ```yaml
-data_source: vingtetun/nq320k
+data_source: artefactory/nq320k
 config_name: htmlnorm-pageid
 repo_type: dataset
 ```

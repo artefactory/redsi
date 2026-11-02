@@ -2,7 +2,7 @@
 
 plugin: nq320k
 params:
-  data_source: vingtetun/nq320k
+  data_source: artefactory/nq320k
   config_name: htmlnorm-pageid
   revision: ""
   repo_type: dataset

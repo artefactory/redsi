@@ -31,7 +31,7 @@ from . import features, text_style, text_utils, titles
 #                           │                 │
 #                           ▼                 ▼
 #                      SIMPLIFIED[X]   try download styled simplified
-#                                      from vingtetun/natural-questions
+#                                      from artefactory/natural-questions
 #                                             │
 #                                    ┌────────┴────────┐
 #                                    │                 │
@@ -55,7 +55,7 @@ from . import features, text_style, text_utils, titles
 #                                    ▼                 ▼                  ▼         │
 #                         SIMPLIFIED[default]  try download default  load local full│
 #                                              simplified                           │
-#                                              from vingtetun                       │
+#                                              from artefactory                     │
 #                                                   │                               │
 #                                          ┌────────┴────────┐                      │
 #                                          │                 │                      │
@@ -199,7 +199,7 @@ CACHE_FILENAME = "simplified-nq-{split_name}-{text_style}.jsonl.gz"
 
 HF_DATASET_SOURCE = "natural_questions"
 
-HF_REPO_ID = "vingtetun/natural-questions"
+HF_REPO_ID = "artefactory/natural-questions"
 HF_REPO_TYPE = "dataset"
 HF_SUBDIR = "data"
 
