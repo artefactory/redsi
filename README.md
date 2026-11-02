@@ -18,17 +18,17 @@ ReDSI provides:
 
 ## Installation
 
-For a released version:
+From the repository:
 
 ```bash
-python -m pip install redsi
+python -m pip install "git+https://github.com/artefactory/redsi.git"
 ```
 
 For local ReDSI development:
 
 ```bash
-git clone git@github.com:vingtetun/ReDSI.git
-cd ReDSI
+git clone git@github.com:artefactory/redsi.git
+cd redsi
 
 python3 -m venv .venv
 source .venv/bin/activate
